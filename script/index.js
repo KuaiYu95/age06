@@ -1,6 +1,7 @@
 // 引入需要的模块
 const fs = require('fs');
 const path = require('path');
+const dayjs = require('dayjs');
 const { replaceInUmiFile } = require('./replace.js');
 console.log('\n----------------------------------------------------------------------------------------');
 console.log('1️⃣  开始执行脚步操作...');
@@ -24,7 +25,7 @@ function loadOldData(pathname) {
 }
 
 // 获取 oldData
-const oldData = loadOldData('../data/20250903.js');
+const oldData = loadOldData('../data/origin.js');
 const newData = loadOldData('../data/20250905.js');
 
 // 根据 newData 中的 img 从 oldData 筛选出旧数据
@@ -84,6 +85,81 @@ function processDataReplacement() {
   }
 }
 
+// 数据合并函数
+function mergeData() {
+  console.log('\n----------------------------------------------------------------------------------------');
+  console.log('🔄 开始合并数据...');
+  console.log('----------------------------------------------------------------------------------------');
+
+  // 创建合并后的数据数组，从 oldData 开始
+  const mergedData = [...oldData];
+
+  // 遍历 newData，替换 oldData 中相同 img 的项目
+  newData.forEach(newItem => {
+    const index = mergedData.findIndex(oldItem => oldItem.img === newItem.img);
+    if (index !== -1) {
+      console.log(`✅ 替换项目: ${newItem.img}`);
+      mergedData[index] = newItem;
+    } else {
+      console.log(`⚠️  新项目未在原数据中找到: ${newItem.img}`);
+    }
+  });
+
+  console.log(`📊 合并完成：总共 ${mergedData.length} 条数据，替换了 ${newData.length} 条数据`);
+  return mergedData;
+}
+
+// 保存合并后的数据
+function saveMergedData(mergedData, fileName) {
+  console.log('\n----------------------------------------------------------------------------------------');
+  console.log('💾 保存合并后的数据...');
+  console.log('----------------------------------------------------------------------------------------');
+
+  const filePath = path.join(__dirname, '../data', fileName);
+
+  // 格式化数据为 JS 文件内容
+  const fileContent = `const data = ${JSON.stringify(mergedData, null, 2)};`;
+
+  try {
+    fs.writeFileSync(filePath, fileContent, 'utf8');
+    console.log(`✅ 数据已成功保存到: ${filePath}`);
+    console.log(`📁 文件名: ${fileName}`);
+    return filePath;
+  } catch (error) {
+    console.error('❌ 保存文件失败:', error.message);
+    return null;
+  }
+}
+
+// 执行完整的合并流程
+function executeDataMerge() {
+  console.log('\n========================================================================================');
+  console.log('🚀 开始执行数据合并流程');
+  console.log('========================================================================================');
+
+  // 1. 合并数据
+  const mergedData = mergeData();
+
+  const fileName = dayjs().format('YYYYMMDD_HHmmss');
+
+  // 2. 保存合并后的数据
+  const savedPath = saveMergedData(mergedData, `${fileName}.js`);
+  const originPath = saveMergedData(mergedData, 'origin.js');
+
+  if (savedPath || originPath) {
+    console.log('\n========================================================================================');
+    console.log('🎉 数据合并流程完成！');
+    console.log('========================================================================================');
+  } else {
+    console.log('\n========================================================================================');
+    console.log('❌ 数据合并流程失败！');
+    console.log('========================================================================================');
+  }
+}
+
 // 执行数据替换
 processDataReplacement();
+
+// 执行数据合并
+executeDataMerge();
 

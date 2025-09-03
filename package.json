@@ -1,0 +1,25 @@
+{
+  "name": "age06-build-tools",
+  "version": "1.0.0",
+  "description": "Age06 项目构建工具",
+  "main": "script/build.js",
+  "scripts": {
+    "img": "node script/img.js",
+    "merge": "node script/index.js",
+    "build": "rm -rf dist/* && node script/build.js"
+  },
+  "keywords": [
+    "build",
+    "zip",
+    "archive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "dayjs": "^1.11.18"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
