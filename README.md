@@ -1,4 +1,4 @@
-# Age06 打包工具使用说明
+# Age06
 
 ## 安装依赖
 
@@ -10,27 +10,20 @@ npm install
 
 ## 使用方法
 
-### 方法 1: 使用 npm 脚本（推荐）
+### 使用 npm 脚本
 
 ```bash
+# 重命名引入的图片
+npm run img
+
+# 替换标题链接，合并新旧数据
+npm run merge
+
 # 打包 age06 目录
 npm run build
-
-# 或者
-npm run build:zip
-
-# 清理旧的 zip 文件
-npm run clean
 ```
 
-### 方法 2: 直接运行脚本
-
-```bash
-# 打包 age06 目录
-node script/build.js
-```
-
-## 输出结果
+## build 输出结果
 
 - 打包后的文件会保存在 `dist/` 目录下
 - 文件命名格式：`age06-YYYY-MM-DD.zip`
