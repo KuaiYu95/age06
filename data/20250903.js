@@ -139,7 +139,7 @@ const data = [
   },
   {
     img: 'material_2',
-    title: '主题素材包：四季之四季特征（秋）',
+    title: '主题素材包：四季之四季特征（春）',
     href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/08dfa288-8194-4bb8-93ad-5d236cb319a2',
   },
   {
