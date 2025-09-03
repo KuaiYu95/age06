@@ -26,7 +26,7 @@ function loadOldData(pathname) {
 
 // 获取 oldData
 const oldData = loadOldData('../data/origin.js');
-const newData = loadOldData('../data/20250905.js');
+const newData = loadOldData('../data/new_data.js');
 
 // 根据 newData 中的 img 从 oldData 筛选出旧数据
 function processDataReplacement() {
@@ -143,7 +143,7 @@ function executeDataMerge() {
   const fileName = dayjs().format('YYYYMMDD_HHmmss');
 
   // 2. 保存合并后的数据
-  const savedPath = saveMergedData(mergedData, `${fileName}.js`);
+  const savedPath = saveMergedData(mergedData, `${fileName}_merge.js`);
   const originPath = saveMergedData(mergedData, 'origin.js');
 
   if (savedPath || originPath) {
