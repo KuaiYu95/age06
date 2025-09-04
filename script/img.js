@@ -106,20 +106,8 @@ const replacements = [
   },
 ];
 
-console.log('开始执行替换操作...\n');
-const success = replaceInUmiFile(replacements);
+console.log('\n1️⃣  开始执行替换操作...');
+replaceInUmiFile(replacements);
 
-if (success) {
-  console.log('\n✅ 替换操作完成！');
-} else {
-  console.log('\n❌ 替换操作失败！');
-}
-
-console.log('开始执行重命名操作...\n');
-const success2 = renameStaticFiles(replacements);
-
-if (success2) {
-  console.log('\n✅ 重命名操作完成！');
-} else {
-  console.log('\n❌ 重命名操作失败！');
-}
+console.log('\n2️⃣  开始执行重命名操作...');
+renameStaticFiles(replacements);

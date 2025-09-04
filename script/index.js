@@ -3,9 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const dayjs = require('dayjs');
 const { replaceInUmiFile } = require('./replace.js');
-console.log('\n----------------------------------------------------------------------------------------');
-console.log('1️⃣  开始执行脚步操作...');
-console.log('----------------------------------------------------------------------------------------');
+console.log('\n1️⃣  开始读取替换数据...');
 
 function loadOldData(pathname) {
   try {
@@ -30,9 +28,7 @@ const newData = loadOldData('../data/new_data.js');
 
 // 根据 newData 中的 img 从 oldData 筛选出旧数据
 function processDataReplacement() {
-  console.log('\n----------------------------------------------------------------------------------------');
-  console.log('2️⃣  开始执行替换操作...');
-  console.log('----------------------------------------------------------------------------------------');
+  console.log('\n2️⃣  开始查询替换数据...');
   const filters = [];
 
   newData.forEach(newItem => {
@@ -69,16 +65,16 @@ function processDataReplacement() {
       }
     })
     if (replaceTitle.length) {
-      console.log('\n----------------------------------------------------------------------------------------');
-      console.log(`3️⃣  替换标题 ${replaceTitle.length} 项`);
-      console.log('----------------------------------------------------------------------------------------');
+      console.log(`\n3️⃣  开始替换标题 ${replaceTitle.length} 项`);
       replaceInUmiFile(replaceTitle);
+    } else {
+      console.log(`\n3️⃣  无替换标题`)
     }
     if (replaceHref.length) {
-      console.log('\n----------------------------------------------------------------------------------------');
-      console.log(`4️⃣  替换链接 ${replaceHref.length} 项`);
-      console.log('----------------------------------------------------------------------------------------');
+      console.log(`\n4️⃣  开始替换链接 ${replaceHref.length} 项`);
       replaceInUmiFile(replaceHref);
+    } else {
+      console.log(`\n4️⃣  无替换链接`)
     }
   } else {
     console.log('\n⭕️ 没有找到需要替换的数据');
@@ -87,9 +83,7 @@ function processDataReplacement() {
 
 // 数据合并函数
 function mergeData() {
-  console.log('\n----------------------------------------------------------------------------------------');
-  console.log('🔄 开始合并数据...');
-  console.log('----------------------------------------------------------------------------------------');
+  console.log('\n5️⃣  开始合并数据...');
 
   // 创建合并后的数据数组，从 oldData 开始
   const mergedData = [...oldData];
@@ -105,15 +99,12 @@ function mergeData() {
     }
   });
 
-  console.log(`📊 合并完成：总共 ${mergedData.length} 条数据，替换了 ${newData.length} 条数据`);
+  console.log(`✅ 合并完成：总共 ${mergedData.length} 条数据，替换了 ${newData.length} 条数据`);
   return mergedData;
 }
 
 // 保存合并后的数据
 function saveMergedData(mergedData, fileName) {
-  console.log('\n----------------------------------------------------------------------------------------');
-  console.log('💾 保存合并后的数据...');
-  console.log('----------------------------------------------------------------------------------------');
 
   const filePath = path.join(__dirname, '../data', fileName);
 
@@ -123,7 +114,7 @@ function saveMergedData(mergedData, fileName) {
   try {
     fs.writeFileSync(filePath, fileContent, 'utf8');
     console.log(`✅ 数据已成功保存到: ${filePath}`);
-    console.log(`📁 文件名: ${fileName}`);
+    console.log(`✅ 文件名: ${fileName}`);
     return filePath;
   } catch (error) {
     console.error('❌ 保存文件失败:', error.message);
@@ -133,27 +124,21 @@ function saveMergedData(mergedData, fileName) {
 
 // 执行完整的合并流程
 function executeDataMerge() {
-  console.log('\n========================================================================================');
-  console.log('🚀 开始执行数据合并流程');
-  console.log('========================================================================================');
-
   // 1. 合并数据
   const mergedData = mergeData();
 
   const fileName = dayjs().format('YYYYMMDD_HHmmss');
 
   // 2. 保存合并后的数据
+  console.log('\n6️⃣  保存合并后的数据...');
   const savedPath = saveMergedData(mergedData, `${fileName}_merge.js`);
+  console.log('\n7️⃣  替换源文件...');
   const originPath = saveMergedData(mergedData, 'origin.js');
 
   if (savedPath || originPath) {
-    console.log('\n========================================================================================');
-    console.log('🎉 数据合并流程完成！');
-    console.log('========================================================================================');
+    console.log('\n🎉 数据合并流程完成！');
   } else {
-    console.log('\n========================================================================================');
-    console.log('❌ 数据合并流程失败！');
-    console.log('========================================================================================');
+    console.log('\n❌ 数据合并流程失败！');
   }
 }
 
