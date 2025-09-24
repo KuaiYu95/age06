@@ -8,7 +8,7 @@ const archiver = require('archiver');
 function buildZip() {
   const sourceDir = path.join(__dirname, '../age06');
   const outputDir = path.join(__dirname, '../dist');
-  const outputFile = path.join(outputDir, `age06-${new Date().toISOString().slice(0, 10)}.zip`);
+  const outputFile = path.join(outputDir, `首页${new Date().toISOString().slice(5, 10).replace(/-/, '')}期.zip`);
 
   // 确保输出目录存在
   if (!fs.existsSync(outputDir)) {
