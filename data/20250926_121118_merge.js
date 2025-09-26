@@ -12,7 +12,7 @@ const data = [
   {
     "img": "banner_3",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0926/48600/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/kct/02/index.html#/"
   },
   {
     "img": "banner_4",
@@ -32,7 +32,7 @@ const data = [
   {
     "img": "topic_left",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/kct/02/index.html#/"
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/testIndex/index.html#/"
   },
   {
     "img": "topic_right_1",
