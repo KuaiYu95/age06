@@ -2,81 +2,65 @@ const data = [
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活：紧急电话牢牢记',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4c4ca9a3-e2c1-45e3-87d8-af2ca74dc65b',
+    title: '小班生活：早睡早起身体好',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/261b65e9-b28b-4508-a4ff-665656fc6fd3',
   },
   {
     img: 'life_2',
-    title: '中班生活：马路安全我知道',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0f83f10e-3900-4d23-8f25-df0d752559c8',
+    title: '中班家园共育：良好的生活作息',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/65226a00-5dcf-4af3-9e99-c81501839d5f',
   },
   {
     img: 'life_3',
-    title: '大班生活：乘梯安全我知道',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0bc4f9df-c919-46ee-a24d-38800acde71c',
+    title: '大班指导提示：餐后整理习惯好',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6a17ec2a-37a7-4b78-bbc4-2719cc22acc3',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班区域性运动：赛车总动员',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6ff7ce2f-c3ef-452c-bef0-0006f20ae48f',
+    title: '小班亲子：小袋鼠找妈妈',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4491fa7e-b9bc-4ae0-acd9-19a1ac6ac2db',
   },
   {
     img: 'sport_2',
-    title: '中班活动案例：汽车快快跑',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6e3f8bbc-e190-4743-a9cd-eabd2a3272ae',
+    title: '中班亲子：小球快跑',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/847e55ef-46d0-41b6-96d6-5d1af96a0e84',
   },
   {
     img: 'sport_3',
-    title: '大班活动案例：逛上海',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dad81b9c-3d5e-41a1-b7c2-5eb3f50685b9',
+    title: '大班亲子：打老虎',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d27727eb-7dc4-494e-8ce1-8d20e0912ab6',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班科学活动：动物照相馆',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2376c965-196b-4a4c-ac4e-8e0d14b245cf',
+    title: '小班音乐：小乌龟',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ddb74a52-395a-481a-8358-f6708076f690',
   },
   {
     img: 'learn_2',
-    title: '中班数学：小动物住酒店',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dee02f60-193b-40eb-8bc6-66f8e7fbbe23',
+    title: '中班社会：居家安全教育',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a90788e4-c0b8-4b7f-83e7-50f0a9ce4911',
   },
   {
     img: 'learn_3',
-    title: '大班艺术：千里江山图',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8c928f93-216b-422b-afff-0f3463f01629',
+    title: '大班社会活动：水乡婚典',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cdfefba6-6b22-4fe3-855d-617d1163c9b5',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班游戏中的故事：热闹的美食街',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/57abd10f-7d15-4c6c-a426-eb9d86d7adc4',
+    title: '小班游戏中的故事：温暖的“家”',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5f51b624-ad37-4b34-9e5e-22685e22825d',
   },
   {
     img: 'game_2',
-    title: '中班介入回应：好大的游轮',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ff71c8fb-b71a-4699-9e6a-90ce6360a250',
+    title: '中班游戏中的故事：小小河道工程师',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/88262e8e-fa4e-4533-a632-9a7550a8fc1d',
   },
   {
     img: 'game_3',
-    title: '大班游戏中的故事：航海地图',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0506f9ec-b83e-4188-a5db-58e3cd8c58fd',
-  },
-  // 素材资源 1/2/3
-  {
-    img: 'material_1',
-    title: '主题素材包：各种各样的交通工具之汽车',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fa3a47d2-5411-40a6-81a9-486144a6e68e',
-  },
-  {
-    img: 'material_2',
-    title: '主题素材包：各种各样的交通工具之船',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a4880503-8dbd-4350-af31-76c01ee2a382',
-  },
-  {
-    img: 'material_3',
-    title: '主题素材包：各种各样的交通工具之飞机',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/79a67c86-f77a-483f-bf18-b4a67ae3cfc1',
+    title: '大班游戏中的故事：木耳进行曲',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ec4ec243-b4ec-4b95-8d47-5e189ee2e94a',
   },
 ];
