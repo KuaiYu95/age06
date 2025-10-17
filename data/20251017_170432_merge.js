@@ -7,7 +7,7 @@ const data = [
   {
     "img": "banner_2",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1021/14666/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0731/54705/index.html#/"
   },
   {
     "img": "banner_3",
@@ -111,12 +111,12 @@ const data = [
   },
   {
     "img": "material_2",
-    "title": "压缩包：绕过障碍物",
+    "title": "大班绕过障碍物活动方案文档-压缩包",
     "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3454784c-e1b5-48ff-8d3b-55d5b43a0653"
   },
   {
     "img": "material_3",
-    "title": "文稿课件：《黄浦江上四座桥》",
+    "title": "说唱文稿《黄浦江上四座桥》配套课件",
     "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ce4a3456-4dec-46fb-8d46-60063ee304c1"
   }
 ];

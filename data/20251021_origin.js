@@ -7,7 +7,7 @@ const data = [
   {
     "img": "banner_2",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1021/14666/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0731/54705/index.html#/"
   },
   {
     "img": "banner_3",
