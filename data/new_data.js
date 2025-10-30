@@ -2,81 +2,81 @@ const data = [
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活：我会自己穿衣服',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1b9d7eb3-cea2-4fb1-8236-3eb7f4308220',
+    title: '小班生活：玩具宝宝送回家',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0658e5d6-ade7-4d68-805e-8d3ce8bfdf0c',
   },
   {
     img: 'life_2',
-    title: '中班指导提示：包好小肚子',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/92a13658-9403-4d61-a2bd-55212402acb1',
+    title: '中班生活活动：我会整理房间',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/aca54d39-62a2-42ec-8879-a99cd3b85eb1',
   },
   {
     img: 'life_3',
-    title: '大班环境创设：便后，穿戴整齐',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2881e79f-d8b1-48d2-869a-436819c14e95',
+    title: '大班生活活动：我的小书包',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dda5d387-1a3a-4fb2-bbeb-cde0673a2f9e',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班游戏玩法：好朋友',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0026c13d-14a4-4b98-ac19-064144138025',
+    title: '大班自制运动器械：明星得分王',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9f0b2fff-27aa-4f74-b5ee-b1f6d44cd81a',
   },
   {
     img: 'sport_2',
-    title: '中班集体运动游戏：神秘好朋友',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/aa1470e3-83bc-46e5-bfc4-3505afe9fe4d',
+    title: '中班活动案例：饮料分家',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/501b8d13-ccae-41c4-856a-e079d8af0bab',
   },
   {
     img: 'sport_3',
-    title: '大班游戏玩法：找朋友',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a3645b53-6262-4796-9fb5-e29d78062b76',
+    title: '小班游戏玩法：小猴运水果',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8b4d96f9-2027-4ca1-abf4-c7055882c3dc',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班科学：水宝宝找朋友',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1498af74-4627-4723-90ba-d377ebe6569b',
+    title: '大班社会：我是收纳小能手',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/21542607-b032-4816-aa4e-fc2a3385d5f7',
   },
   {
     img: 'learn_2',
-    title: '中班社会：学会原谅',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f5c30c87-7cd8-4203-9ca4-0ee4b295cc78',
+    title: '小班数学：水果找家',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0432e9c7-a3d9-4b57-b4de-57ee251307fc',
   },
   {
     img: 'learn_3',
-    title: '大班环境创设：我和别人不一样',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/25e9986f-7686-4c36-ba43-127e59375c77',
+    title: '中班科学：垃圾分类',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/27487e6c-5d6f-48fe-b864-fa44d931ab5b',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班游戏活动：娃娃家',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/22539136-1f0a-48aa-9db1-3e160d80e191',
+    title: '大班介入回应：小整理 大发展',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cd5c739e-7777-4c36-8f3c-94d2a45fb0dd',
   },
   {
     img: 'game_2',
-    title: '中班游戏中的故事：商量是个好办法',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/503afe4f-c7fc-4c70-ac83-2bc0d0795170',
+    title: '中班游戏中的故事：对对碰',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8244f312-0736-4b94-af85-6a5bd9d075cd',
   },
   {
     img: 'game_3',
-    title: '大班分享交流：我们都不想扮演“坏狐狸”',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3db32f7a-fd18-4001-887f-4c8b6c18309f',
+    title: '小班环境材料：小舞台的乐器真好玩！',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/040d9201-a5d2-42f3-97ad-7bd7dff576df',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '课件文档：有用的黄豆',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5bf9592d-e81b-46fe-b533-6373b09bd416',
+    title: '衣帽间（柜）',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8b8c3545-9f28-4dad-9e86-50fc85d38784',
   },
   {
     img: 'material_2',
-    title: '玩法文档：老鹰抓小鸡',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d11de5da-dea8-43e3-b89a-20e3e6eb406f',
+    title: '主题素材包：各种各样的植物之银杏',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3987f53f-8abd-4d59-b8a2-3d92ad74e389',
   },
   {
     img: 'material_3',
-    title: '游戏压缩包：躲猫猫',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4f95af82-496b-4dda-b8f3-0a256629b049',
+    title: '方案文档：大班时空隧道',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1a5565f0-672b-4083-9621-40a9c4e373e2',
   },
 ];
