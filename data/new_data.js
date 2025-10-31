@@ -2,81 +2,81 @@ const data = [
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活：玩具宝宝送回家',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0658e5d6-ade7-4d68-805e-8d3ce8bfdf0c',
+    title: '小班生活活动：我会擦擦汗',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4eeb3a00-c481-4634-8226-fb7d46a5bae7',
   },
   {
     img: 'life_2',
-    title: '中班生活活动：我会整理房间',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/aca54d39-62a2-42ec-8879-a99cd3b85eb1',
+    title: '中班生活活动：天天运动',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4a6faca5-3597-422a-9880-c0894ae6c682',
   },
   {
     img: 'life_3',
-    title: '大班生活活动：我的小书包',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dda5d387-1a3a-4fb2-bbeb-cde0673a2f9e',
+    title: '大班环境创设：户外运动中休息场所的设置',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ddf6b9a8-f526-4609-ab2d-4bf50277645d',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '大班自制运动器械：明星得分王',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9f0b2fff-27aa-4f74-b5ee-b1f6d44cd81a',
+    title: '大班区域性运动：大滑梯的“变革”之路',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5b7816ef-6a29-4d95-8e3b-0d1622b90088',
   },
   {
     img: 'sport_2',
-    title: '中班活动案例：饮料分家',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/501b8d13-ccae-41c4-856a-e079d8af0bab',
+    title: '中班徒手体操：运动员模仿操',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/723af7d2-3ae7-405e-91cf-06c162521d7c',
   },
   {
     img: 'sport_3',
-    title: '小班游戏玩法：小猴运水果',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8b4d96f9-2027-4ca1-abf4-c7055882c3dc',
+    title: '小班活动案例：去丛林大冒险',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/264fd8e7-b24c-4e13-8a87-0c16ca01c232',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '大班社会：我是收纳小能手',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/21542607-b032-4816-aa4e-fc2a3385d5f7',
+    title: '小班社会：大家一起动起来',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f6e2bace-0e8c-4323-892e-d78a9ac8beae',
   },
   {
     img: 'learn_2',
-    title: '小班数学：水果找家',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0432e9c7-a3d9-4b57-b4de-57ee251307fc',
+    title: '中班自制玩教具：不一样的世界杯',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/48076348-d954-44ee-ba6e-45af2164c321',
   },
   {
     img: 'learn_3',
-    title: '中班科学：垃圾分类',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/27487e6c-5d6f-48fe-b864-fa44d931ab5b',
+    title: '大班自制玩教具：登山运动员',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/06d53490-174e-406d-b94c-e2f5e33b4f0c',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '大班介入回应：小整理 大发展',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cd5c739e-7777-4c36-8f3c-94d2a45fb0dd',
+    title: '小班分享交流：《袋鼠接力》亲子游戏',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/28c45681-b2ce-4086-b6cb-660a206777b8',
   },
   {
     img: 'game_2',
-    title: '中班游戏中的故事：对对碰',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8244f312-0736-4b94-af85-6a5bd9d075cd',
+    title: '中班游戏中的故事：登山探险行',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/269c5d4a-ec59-4074-b44a-ea78d7a3e280',
   },
   {
     img: 'game_3',
-    title: '小班环境材料：小舞台的乐器真好玩！',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/040d9201-a5d2-42f3-97ad-7bd7dff576df',
+    title: '大班游戏中的故事：体育广场',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3852cbdd-28f7-420b-86bb-1c2a85bc522d',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '衣帽间（柜）',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8b8c3545-9f28-4dad-9e86-50fc85d38784',
+    title: '幼儿如何探究运动手环？',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e281c3a2-d903-420c-8b76-598020625173',
   },
   {
     img: 'material_2',
-    title: '主题素材包：各种各样的植物之银杏',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3987f53f-8abd-4d59-b8a2-3d92ad74e389',
+    title: '主题素材包：各种各样的动物之袋鼠',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/be57c2c6-8a1a-4f95-88d8-b9886294b9bf',
   },
   {
     img: 'material_3',
-    title: '方案文档：大班时空隧道',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1a5565f0-672b-4083-9621-40a9c4e373e2',
+    title: '室外活动，室内就能玩儿',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6a56e076-e78f-4d99-81cb-eb6fe4cb2b8a',
   },
 ];
