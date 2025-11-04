@@ -1,82 +1,94 @@
 const data = [
+  // 主题图 - 右上
+  {
+    img: 'topic_right_1',
+    title: '',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/864632a0-98d9-4467-a31d-e03019b00a5a',
+  },
+  // 主题图 - 右下
+  {
+    img: 'topic_right_2',
+    title: '',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5db168e3-e865-413b-a2a2-c9407470a8b1',
+  },
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活活动：我会擦擦汗',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4eeb3a00-c481-4634-8226-fb7d46a5bae7',
+    title: '中班生活活动：保护皮肤',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2237d12a-d359-43d6-a130-7d25beb0ea2f',
   },
   {
     img: 'life_2',
-    title: '中班生活活动：天天运动',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4a6faca5-3597-422a-9880-c0894ae6c682',
+    title: '大班生活活动：春夏秋冬',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e834f4ae-38da-4997-a7ef-7f88fe0978bf',
   },
   {
     img: 'life_3',
-    title: '大班环境创设：户外运动中休息场所的设置',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ddf6b9a8-f526-4609-ab2d-4bf50277645d',
+    title: '小班环境创设：抹香香',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/403a732f-370a-4021-b4ca-06b969ba2350',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '大班区域性运动：大滑梯的“变革”之路',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5b7816ef-6a29-4d95-8e3b-0d1622b90088',
+    title: '小班亲子：猜动物',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5dfc7f7e-4629-4473-97b7-ad154fb0583c',
   },
   {
     img: 'sport_2',
-    title: '中班徒手体操：运动员模仿操',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/723af7d2-3ae7-405e-91cf-06c162521d7c',
+    title: '中班教学案例：小马学本领',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/45068cf8-6951-4a1f-ae0b-32d91c3f3c88',
   },
   {
     img: 'sport_3',
-    title: '小班活动案例：去丛林大冒险',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/264fd8e7-b24c-4e13-8a87-0c16ca01c232',
+    title: '大班游戏玩法：麻袋跑跑',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/643dc26b-1474-41b4-8514-86575e2a9fa9',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班社会：大家一起动起来',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f6e2bace-0e8c-4323-892e-d78a9ac8beae',
+    title: '小班科学：买冬衣 ',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8a8c68cb-7a92-400c-8084-97775fd533fa',
   },
   {
     img: 'learn_2',
-    title: '中班自制玩教具：不一样的世界杯',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/48076348-d954-44ee-ba6e-45af2164c321',
+    title: '中班艺术：雪地里的小画家',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fc9cb390-c7e7-4b49-9ae7-11ff3830b333',
   },
   {
     img: 'learn_3',
-    title: '大班自制玩教具：登山运动员',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/06d53490-174e-406d-b94c-e2f5e33b4f0c',
+    title: '大班健康：冬天爱运动',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b42ab05d-b726-42de-b7d3-0b992a4d6d44',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班分享交流：《袋鼠接力》亲子游戏',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/28c45681-b2ce-4086-b6cb-660a206777b8',
+    title: '小班游戏中的故事：忙碌的爷爷',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d91f4b88-e952-49c6-b97c-77348230dc8f',
   },
   {
     img: 'game_2',
-    title: '中班游戏中的故事：登山探险行',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/269c5d4a-ec59-4074-b44a-ea78d7a3e280',
+    title: '中班环境材料：插塑类材料—雪花片',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/788a8ec9-9a7b-4479-8fb8-3b46fd278127',
   },
   {
     img: 'game_3',
-    title: '大班游戏中的故事：体育广场',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3852cbdd-28f7-420b-86bb-1c2a85bc522d',
+    title: '大班介入回应：幼儿户外积木游戏',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d4dddd4a-74ad-4ff4-acc8-916b135232e5',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '幼儿如何探究运动手环？',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e281c3a2-d903-420c-8b76-598020625173',
+    title: '主题素材包：四季之四季特征（冬）',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/43edbba8-ef19-49eb-a022-9187cad3e2bb',
   },
   {
     img: 'material_2',
-    title: '主题素材包：各种各样的动物之袋鼠',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/be57c2c6-8a1a-4f95-88d8-b9886294b9bf',
+    title: '主题素材包：天气现象之雪是怎么形成的',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0d18ebbc-3079-497e-9407-9472380ae230',
   },
   {
     img: 'material_3',
-    title: '室外活动，室内就能玩儿',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6a56e076-e78f-4d99-81cb-eb6fe4cb2b8a',
+    title: '音乐素材：“买菜”歌曲',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/92db0541-6e3a-4d46-a9e2-ae0e7b7b91f1',
   },
 ];
