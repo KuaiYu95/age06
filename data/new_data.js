@@ -2,81 +2,81 @@ const data = [
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活：紧急电话牢牢记',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4c4ca9a3-e2c1-45e3-87d8-af2ca74dc65b',
+    title: '小班生活活动：我会漱口',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5064acf2-c788-4852-b4f4-679640791527',
   },
   {
     img: 'life_2',
-    title: '大班生活活动：着火了怎么办',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/972d9cff-a455-4683-b227-8dec24c7eb84',
+    title: '中班生活活动：小手真能干',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/678a3e9f-3eb9-4845-aef1-c79b2e4fbad5',
   },
   {
     img: 'life_3',
-    title: '中班环境创设：安全角',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b6824816-4f91-4c69-94a7-9ff1e4b2905a',
+    title: '大班生活：废物利用真好玩',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/35f20e2c-631b-456f-a24c-dc0fff6e8d64',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班活动案例：托马斯汽车城',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/81a06d9d-f924-4588-bfab-6b2ac93362ce',
+    title: '小班游戏玩法：魔力圈',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5853e971-7cfa-4be4-8095-357e2c73f4bd',
   },
   {
     img: 'sport_2',
-    title: '中班运动：消防员训练',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/324356a1-fa48-4499-9579-b4d7b9ec40af',
+    title: '中班游戏玩法：巫师与精灵',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7ce2885c-8bf5-4b4c-a192-3c39100748a8',
   },
   {
     img: 'sport_3',
-    title: '大班教学案例：消防训练营',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e237ab5c-dae8-48fc-80ce-1aedd71ae799',
+    title: '大班自制玩教具：百变纸箱',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8ce0d5fa-d247-46dc-a636-36ad64c376b3',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班科学：快快赶往“救援现场”',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/642d0f88-e6e1-4ee6-9183-ffa36c9bb766',
+    title: '小班科学：影子的魔法派对',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/44bc7540-0d09-4d73-9801-6593621c770c',
   },
   {
     img: 'learn_2',
-    title: '中班社会：参观消防局',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b0a767ef-6f31-4978-9979-9427681f7a78',
+    title: '中班语言：会变颜色的小花猫',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b79be8c6-79b5-4d4e-af8a-cc4baf8ca96f',
   },
   {
     img: 'learn_3',
-    title: '大班音乐活动：造高楼',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c3ba0ac9-6ce0-40e4-901c-033c6030c345',
+    title: '大班科学：会魔法的水',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8becdf11-7afe-4d5a-9d75-88df8b37d910',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班游戏中的故事：消防员和消防车',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6e37cff3-7ad1-41b4-8754-e99b6bc9f230',
+    title: '小班分享交流：神奇的魔法棒',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/de5e9f33-fa81-4ba1-8eb2-631630aec415',
   },
   {
     img: 'game_2',
-    title: '中班游戏中的故事：消防员墨墨',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2b87495c-6406-4962-b9f6-c11c52f10753',
+    title: '中班游戏中的故事：有魔法指甲的小魔仙',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/62cdc981-b703-4743-a22d-eece9c128670',
   },
   {
     img: 'game_3',
-    title: '大班自制玩教具：拯救失火大楼',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e02887df-a827-4d06-9c82-fdf0d2ca0479',
+    title: '大班自制玩教具：怪魔方',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3f78ff1b-f26f-4d70-bc1b-ff9c65fdf960',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '课件素材：了不起的消防员叔叔',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d10f3e5a-451e-4c01-ba1e-8af16bc2ec39',
+    title: '主题素材包：天气现象之雪花的形状',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3e1b1f30-5dea-42c5-8ab5-e49892ec4841',
   },
   {
     img: 'material_2',
-    title: '音乐素材：建筑之歌',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/aca3b0c8-9f46-4f1b-ba56-8e381935a2b4',
+    title: '主题素材包：天气现象之雾',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4c1ec723-5dc8-4b33-8474-c17e56475e0d',
   },
   {
     img: 'material_3',
-    title: '主题素材包：动物的本领之会游泳的动物',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cf16bb2a-cb7a-4f15-acc7-4101f91920fe',
+    title: '课件压缩包：魔仙城堡',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/be4bd5e4-339d-492c-8fb4-664428bafe2b',
   },
 ];
