@@ -26,8 +26,8 @@ const data = [
   },
   {
     "img": "banner_6",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/content/2025/7392038699954868224.html?setOfId=6938"
+    "title": "9-10月课程资源征集通知",
+    "href": "https://age06.edu.sh.cn/age06web/home/content/2025/7368522496175247360.html?setOfId=6938&setOfId=6938"
   },
   {
     "img": "topic_left",
