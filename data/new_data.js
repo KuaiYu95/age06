@@ -3,92 +3,92 @@ const data = [
   {
     img: 'topic_right_1',
     title: '',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7a82d001-1f13-4435-a3d8-b871fb2615c2',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6a882722-eec6-465e-a162-78c174d0bccd',
   },
   // 主题图 - 右下
   {
     img: 'topic_right_2',
     title: '',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2bbf3d66-0dcf-4d1b-a4c3-5e16c1a8df09',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cc36a18b-8efd-44c3-a0d9-fb7ec01dc070',
   },
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活活动：多喝水身体好',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/915cd504-6c1b-4530-9ce3-93a924eea6b5',
+    title: '小班生活活动：大家喜欢我',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0c2182d8-7835-4852-b11f-0bffc8ecd487',
   },
   {
     img: 'life_2',
-    title: '中班生活：细嚼慢咽好处多',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ad0941ae-5cbf-468d-813f-769a0ba6629d',
+    title: '中班生活活动：小蝌蚪找妈妈',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7c7e510f-5d4c-49a4-a4c9-4b599ad74448',
   },
   {
     img: 'life_3',
-    title: '大班生活：我是小小百灵鸟',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/71dcddb1-4be4-42a0-9152-5336458b89b1',
+    title: '大班生活活动：爱护动物',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ca586716-a774-4530-a52c-5490a14fa610',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '大班集体运动：烤香肠',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/83956f74-ecf8-416d-8dd0-85d024b851b8',
+    title: '小班运动活动：猫捉老鼠',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/999ec003-25c7-4e13-a9ec-c57640c29758',
   },
   {
     img: 'sport_2',
-    title: '中班游戏玩法：卖糖粥',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8e1c3726-c895-4de5-9dcd-ac7fcae3354b',
+    title: '中班游戏玩法：羊儿学本领',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/266b6f78-0df3-47f9-ac92-0b4b6a8c4538',
   },
   {
     img: 'sport_3',
-    title: '大班集体运动游戏：包春卷',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1d9f1d37-14e4-4850-b1e3-a8d8622d2d9f',
+    title: '大班游戏玩法：动物杂技表演',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/bf5a0921-6076-46e1-8e70-6baef4ecd149',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班艺术：榨果汁',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/747db003-9f14-4c46-aec5-08d3eb5ab61a',
+    title: '小班艺术：小鸡小鸡',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2bb30f5e-5c23-4284-aec2-6a38ccacfc46',
   },
   {
     img: 'learn_2',
-    title: '中班数学：大熊的储藏室',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/39e978a0-2e95-4cfe-89ea-6c6ec437ba24',
+    title: '中班语言：在动物园里',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ddab7637-bc40-4671-9815-77f9ed2cbea0',
   },
   {
     img: 'learn_3',
-    title: '大班美术活动：苹果篮子',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/876e87da-b40d-425c-af35-20b550fcf65d',
+    title: '大班数学：狗熊分饼',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b2c0231d-376c-4165-9833-ab7885106041',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班自制玩教具：巧玩鸡蛋托',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b91f9ddc-2074-410c-9c8a-78e52c9455bb',
+    title: '小班介入回应：小狗一家真幸福',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d1093729-f2a6-4edc-bb5f-c651c2e95e28',
   },
   {
     img: 'game_2',
-    title: '中班分享交流：夹粽子',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8a782877-e7b2-4397-a077-64ca9fd8a08c',
+    title: '中班分享交流：没有尾巴的长颈鹿',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/03e607b7-81b3-48bd-85ad-418667e4925c',
   },
   {
     img: 'game_3',
-    title: '大班环境材料：好吃再来餐厅',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f55ac36e-d3d0-4ba0-b308-7afeeca6254c',
+    title: '大班自制玩教具：趣味龙',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/87725dc4-59f9-4db8-af68-b7212b13efe2',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '主题素材包：对健康的作用之可食用的蔬菜',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b1d6798a-aefd-44bb-981f-c264d8d6a36e',
+    title: '主题素材包：人类对动物的保护',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e6031836-194e-4c75-ac0d-a35b6c263921',
   },
   {
     img: 'material_2',
-    title: '主题素材包：四季之四季轮换',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9c04c84a-62a6-4edd-aeb5-e6efffb734a9',
+    title: '主题素材包：动物的本领之会伪装的动物',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7ad0b587-4d53-46cd-9175-84310c36a2da',
   },
   {
     img: 'material_3',
-    title: '课件素材：水果碰碰响',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4505e22d-357f-4f93-93cf-af96dda744ad',
+    title: '主题素材包：动物间的捕食关系',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/361b9cca-daeb-4d61-9287-cde438a68bd5',
   },
 ];
