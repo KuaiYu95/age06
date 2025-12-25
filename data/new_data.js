@@ -1,92 +1,82 @@
 const data = [
-  {
-    "img": "topic_right_1",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ef1addf0-b592-4e5f-9add-02ac438d2028"
-  },
-  {
-    "img": "topic_right_2",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2228de60-38a7-4b6d-b742-e7a37a30e113"
-  },
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活活动：多喝水身体好',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/915cd504-6c1b-4530-9ce3-93a924eea6b5',
+    title: '小班生活活动：我是小主人',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9f913d5e-06e3-46c3-bd15-81d1f4bb7f52',
   },
   {
     img: 'life_2',
-    title: '中班生活：玩水安全我知道',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/326322d5-4853-43c5-a880-4f53f4f98ec1',
+    title: '中班案例分享：好忙的蜘蛛',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d8bc8835-8b51-4133-a96d-69fb65a36eab',
   },
   {
     img: 'life_3',
-    title: '大班生活：废物利用真好玩',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/35f20e2c-631b-456f-a24c-dc0fff6e8d64',
+    title: '大班生活活动：爱护动物',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ca586716-a774-4530-a52c-5490a14fa610',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班游戏玩法：滑稽的脚先生',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1ba43bd1-08c7-4420-af73-5e5499280aef',
+    title: '小班教学案例：蝌蚪与青蛙',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7c1cf5c5-b1bb-4b86-8a55-a0a73d2c5ea5',
   },
   {
     img: 'sport_2',
-    title: '中班自制玩教具：斜坡溜溜球',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d9998918-8b3f-4d42-bd62-9824134139df',
+    title: '中班游戏玩法：好饿的毛毛虫',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/36078bff-c7c2-4a7a-974d-c42ec8e6e6fd',
   },
   {
     img: 'sport_3',
-    title: '大班自制玩教具：百变扭扭管',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fe4f5497-cd0f-4b14-bf6b-70374df1670a',
+    title: '大班游戏玩法：螃蟹运粮',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6844a0e9-839b-4f97-96f8-19593a4423c2',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班科学：水中花开',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/be9d7aee-5062-427a-bbbd-16fc953ff245',
+    title: '小班综合：小鱼捉迷藏',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/554e53e7-ca0f-4e7a-8d58-1f3642909398',
   },
   {
     img: 'learn_2',
-    title: '中班科学：调制泡泡水',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/60029367-346b-4928-94bc-895c54bfa8e7',
+    title: '中班语言活动：公鸡的新邻居',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f9a080c5-cb99-4f7d-a053-d631f90ea871',
   },
   {
     img: 'learn_3',
-    title: '大班科学活动：橡皮泥浮起来',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8d2122fa-0c30-4db6-ae9e-4267a3a7d36b',
+    title: '大班语言活动：动物网吧',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7dd6696d-f22f-4f11-b3d3-a4d645da6c0a',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班分享交流：吹羽毛',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d97fa8e1-e072-4bc0-ab29-e702fccca515',
+    title: '小班介入回应：我和青蛙比高低',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0dbd20db-6af6-4182-8b37-4c77f84a6c79',
   },
   {
     img: 'game_2',
-    title: '中班分享交流：沙子飞起来了',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e364e554-eebd-4ed8-a014-8594348357c7',
+    title: '中班分享交流：小蚂蚁在干什么？',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/bf19c4eb-bcb9-4695-a7a5-5511ede6f9e9',
   },
   {
     img: 'game_3',
-    title: '大班自制玩教具：宝宝洗刷刷',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/26ed795b-7381-4cff-80b4-34700a9e00e4',
+    title: '大班游戏中的故事：美猴王和花果山',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c69834f8-2e73-4025-99b1-b09fb42601f0',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '主题素材包：中国美景之桂林山水',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8b3dc11c-8375-4a40-b315-e8037bc7e754',
+    title: '主题素材包：各种各样的动物之企鹅',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/de78528f-559e-4ba4-86ca-0b06976cb342',
   },
   {
     img: 'material_2',
-    title: '课件压缩包：奇妙的水',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e12bf417-6e3a-4498-a9f1-5327698a20be',
+    title: '课件素材：人类模仿动物的本领',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b740d9a9-2ba4-41cf-ae34-843d2e1f817b',
   },
   {
     img: 'material_3',
-    title: '主题素材包：中国美景之长江',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/644d0190-924a-4a34-b146-7e838776ef63',
+    title: '课件素材：两只脚和四条腿猜一猜',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/974b1b49-c609-4455-8c92-66f415f5828d',
   },
 ];
