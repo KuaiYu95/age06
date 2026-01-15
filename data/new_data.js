@@ -1,122 +1,82 @@
 const data = [
-  {
-    "img": "banner_3",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1223/00631/index.html"
-  },
-  {
-    "img": "banner_6",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/content/2026/7414554043772571648.html"
-  },
-  {
-    "img": "topic_left",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0926/48600/index.html"
-  },
-  {
-    "img": "topic_right_1",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ef88f434-78cc-42d3-b10a-3df26dcf2a45"
-  },
-  {
-    "img": "topic_right_2",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7519dd99-6d6d-4454-9e5e-9d02041c0188"
-  },
-  {
-    "img": "news_1",
-    "title": "关于部分版权到期资源下线的公告",
-    "href": "https://age06.edu.sh.cn/age06web/home/content/2026/7413408773382868992.html?setOfId=5013828",
-  },
-  {
-    "img": "news_2",
-    "title": "教师生成式人工智能应用指引",
-    "href": "https://age06.edu.sh.cn/age06web/home/content/2025/7401442085846388736.html?setOfId=5013828",
-  },
-  {
-    "img": "news_3",
-    "title": "如何用课程通促师幼共长",
-    "href": "https://mp.weixin.qq.com/s/d2QvQg0JX8-wojnt99CPFQ",
-  },
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活：我会自己穿衣服',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1b9d7eb3-cea2-4fb1-8236-3eb7f4308220',
+    title: '小班环境创设：抹香香',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/403a732f-370a-4021-b4ca-06b969ba2350',
   },
   {
     img: 'life_2',
-    title: '中班生活活动：孝敬长辈',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3832f6b1-e1b0-40e0-8081-12973f07549f',
+    title: '中班生活活动：保护皮肤',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2237d12a-d359-43d6-a130-7d25beb0ea2f',
   },
   {
     img: 'life_3',
-    title: '大班生活活动：礼仪',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/add6a787-8cb7-4a45-816c-49e2473b464e',
+    title: '大班生活活动：认识细菌',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c9c103a8-a807-4595-a908-4f5c1d6308c9',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班游戏玩法：送礼物',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8ad08463-607e-4693-91d2-0e490241c7ec',
+    title: '小班活动案例：捕小鱼',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/93607af2-dea4-479b-a7cf-2209e2881e4e',
   },
   {
     img: 'sport_2',
-    title: '中班集体运动游戏：炒豆豆',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/51186a20-5e31-44f4-ac50-e33c5d63a7e5',
+    title: '中班教学案例：小马学本领',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/45068cf8-6951-4a1f-ae0b-32d91c3f3c88',
   },
   {
     img: 'sport_3',
-    title: '大班集体运动游戏：包春卷',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1d9f1d37-14e4-4850-b1e3-a8d8622d2d9f',
+    title: '大班游戏玩法：登雪山',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/37131c61-e98e-444e-855d-e2a96a469733',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班艺术：新年到',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/20d0bcb5-0879-4473-8246-6eb213be49e3',
+    title: '小班艺术：暖暖的太阳',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e9609b09-3c48-4e2b-b200-23098dace972',
   },
   {
     img: 'learn_2',
-    title: '中班社会：生肖',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f0ed3ff9-57f2-4772-90db-69c4fa621a29',
+    title: '中班科学活动：动物过冬',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/38c0775f-8eea-4691-ab50-f61ee9f989e8',
   },
   {
     img: 'learn_3',
-    title: '大班语言：年夜饭',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e1c3210c-4354-47b9-a97b-13f4f803c1f9',
+    title: '大班艺术：吹画蜡梅',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/57988abb-69b3-4089-966a-310abba7427a',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班环境材料：挂彩灯',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8c7d9f3b-9b6c-4b9d-80ba-70247ce08d82',
+    title: '小班游戏中的故事：温暖的“家”',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5f51b624-ad37-4b34-9e5e-22685e22825d',
   },
   {
     img: 'game_2',
-    title: '中班自制玩教具：拼拼乐',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f64fc73f-6f8e-4a7e-b4a2-6d26e9647e56',
+    title: '中班环境材料：节气活动斗蛋游戏',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b4c99b56-3e09-4d92-a337-0fdcd37babbb',
   },
   {
     img: 'game_3',
-    title: '大班游戏中的故事：我的家',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cb655efa-8664-47aa-8e4e-d143184ba802',
+    title: '大班分享交流：小碗变乌龟',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ef93aa06-8da3-4c5a-becd-00a01efa6f6e',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '主题素材包：四季之节气',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2dfb549f-4f26-4055-aafb-94979ad156c5',
-  },
-  {
-    img: 'material_2',
     title: '主题素材包：四季之四季特征（冬）',
     href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/43edbba8-ef19-49eb-a022-9187cad3e2bb',
   },
   {
+    img: 'material_2',
+    title: '主题素材包：天气现象之雪花的形状',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3e1b1f30-5dea-42c5-8ab5-e49892ec4841',
+  },
+  {
     img: 'material_3',
-    title: '保护伞与神秘感',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/4f6134cf-1355-4616-be6c-fcbad2e7f99a',
+    title: '主题素材包：天气现象之雪对生活的影响',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a804a337-344f-4914-b807-b9095c2aff75',
   },
 ];
