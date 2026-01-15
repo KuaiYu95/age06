@@ -7,7 +7,7 @@ const data = [
   {
     "img": "banner_2",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1021/14666/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1217/09567/index.html"
   },
   {
     "img": "banner_3",
@@ -32,17 +32,17 @@ const data = [
   {
     "img": "topic_left",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0926/48600/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1021/14666/index.html"
   },
   {
     "img": "topic_right_1",
     "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ef88f434-78cc-42d3-b10a-3df26dcf2a45"
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8685fc15-ef60-49fa-84d8-5c134eee1b5a"
   },
   {
     "img": "topic_right_2",
     "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7519dd99-6d6d-4454-9e5e-9d02041c0188"
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d708e90b-fb17-4d2e-b810-b54262919b8d"
   },
   {
     "img": "news_1",
@@ -61,77 +61,77 @@ const data = [
   },
   {
     "img": "life_1",
-    "title": "小班环境创设：抹香香",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/403a732f-370a-4021-b4ca-06b969ba2350"
+    "title": "小班生活活动：不要随便碰我",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fc59a775-682f-49d3-a105-8332aabd9a82"
   },
   {
     "img": "life_2",
-    "title": "中班生活活动：保护皮肤",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2237d12a-d359-43d6-a130-7d25beb0ea2f"
+    "title": "中班生活：过期食品我不吃",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d3dbcb26-73c8-4b42-b81e-e2239e2f038e"
   },
   {
     "img": "life_3",
-    "title": "大班生活活动：认识细菌",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c9c103a8-a807-4595-a908-4f5c1d6308c9"
+    "title": "大班生活：我会保护自己",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/972ab9bf-a5ea-4267-94d2-7bdf1b19f6cb"
   },
   {
     "img": "sport_1",
-    "title": "小班活动案例：捕小鱼",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/93607af2-dea4-479b-a7cf-2209e2881e4e"
+    "title": "小班活动案例：小心翼翼",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d62d142c-15cd-4cd2-b8b2-ff98c7c12ef3"
   },
   {
     "img": "sport_2",
-    "title": "中班教学案例：小马学本领",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/45068cf8-6951-4a1f-ae0b-32d91c3f3c88"
+    "title": "中班游戏玩法：看信号跳圈",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2246f11e-0c22-43d1-b994-070bc8ab71c1"
   },
   {
     "img": "sport_3",
-    "title": "大班游戏玩法：登雪山",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/37131c61-e98e-444e-855d-e2a96a469733"
+    "title": "大班活动案例：紧急灭火",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7acb7345-a393-4ba3-b1c1-a49e49ce674b"
   },
   {
     "img": "learn_1",
-    "title": "小班艺术：暖暖的太阳",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e9609b09-3c48-4e2b-b200-23098dace972"
+    "title": "小班健康：小手真干净",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a1900928-eb32-403d-abe5-57cc2e3efdd8"
   },
   {
     "img": "learn_2",
-    "title": "中班科学活动：动物过冬",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/38c0775f-8eea-4691-ab50-f61ee9f989e8"
+    "title": "中班健康：对对错错说说门",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/68eb5553-bb36-4ae2-83b1-d60a8c0c1304"
   },
   {
     "img": "learn_3",
-    "title": "大班艺术：吹画蜡梅",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/57988abb-69b3-4089-966a-310abba7427a"
+    "title": "大班音乐活动：过马路要看灯",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6e1951ac-01eb-4b1d-8a4d-49d5428825b7"
   },
   {
     "img": "game_1",
-    "title": "小班游戏中的故事：温暖的“家”",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/5f51b624-ad37-4b34-9e5e-22685e22825d"
+    "title": "小班游戏中的故事：娃娃生病了",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c707b486-a29d-4bfd-b7c7-642d54f57547"
   },
   {
     "img": "game_2",
-    "title": "中班环境材料：节气活动斗蛋游戏",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/b4c99b56-3e09-4d92-a337-0fdcd37babbb"
+    "title": "中班游戏中的故事：我是不小心的",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8ac4da90-5a53-447d-9f8a-fb51fcd52009"
   },
   {
     "img": "game_3",
-    "title": "大班分享交流：小碗变乌龟",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ef93aa06-8da3-4c5a-becd-00a01efa6f6e"
+    "title": "大班自制玩教具：拯救失火大楼",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e02887df-a827-4d06-9c82-fdf0d2ca0479"
   },
   {
     "img": "material_1",
-    "title": "主题素材包：四季之四季特征（冬）",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/43edbba8-ef19-49eb-a022-9187cad3e2bb"
+    "title": "“确保安全卫生第一”要注意哪些",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e5482e7d-1be6-4721-aec6-27c7a6eb6a0c"
   },
   {
     "img": "material_2",
-    "title": "主题素材包：天气现象之雪花的形状",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/3e1b1f30-5dea-42c5-8ab5-e49892ec4841"
+    "title": "家庭感，所带来的安全感",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dae170dc-5c7c-4cda-a5bb-bc2cf6c11218"
   },
   {
     "img": "material_3",
-    "title": "主题素材包：天气现象之雪对生活的影响",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a804a337-344f-4914-b807-b9095c2aff75"
+    "title": "主题素材包：中国美景之天山雪岭云杉林",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2a3852f3-dbae-483a-9834-4a8986b9a862"
   }
 ];

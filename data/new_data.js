@@ -1,102 +1,82 @@
 const data = [
-  {
-    "img": "banner_2",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1217/09567/index.html"
-  },
-  {
-    "img": "topic_left",
-    "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1021/14666/index.html"
-  },
-  {
-    "img": "topic_right_1",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8685fc15-ef60-49fa-84d8-5c134eee1b5a"
-  },
-  {
-    "img": "topic_right_2",
-    "title": "",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d708e90b-fb17-4d2e-b810-b54262919b8d"
-  },
   // 课程资源 - 生活板块 1/2/3
   {
     img: 'life_1',
-    title: '小班生活活动：不要随便碰我',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fc59a775-682f-49d3-a105-8332aabd9a82',
+    title: '小班生活活动：大家喜欢我',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/0c2182d8-7835-4852-b11f-0bffc8ecd487',
   },
   {
     img: 'life_2',
-    title: '中班生活：过期食品我不吃',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d3dbcb26-73c8-4b42-b81e-e2239e2f038e',
+    title: '中班生活活动：一起去郊游',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/117531b8-d7de-4692-a963-d57d9f33aef1',
   },
   {
     img: 'life_3',
-    title: '大班生活：我会保护自己',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/972ab9bf-a5ea-4267-94d2-7bdf1b19f6cb',
+    title: '大班生活活动：春夏秋冬',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e834f4ae-38da-4997-a7ef-7f88fe0978bf',
   },
   // 课程资源 - 运动板块 1/2/3
   {
     img: 'sport_1',
-    title: '小班活动案例：小心翼翼',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/d62d142c-15cd-4cd2-b8b2-ff98c7c12ef3',
+    title: '小班远足：小花园',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e902b822-fe93-4f1e-9f0f-14d129cb0ef6',
   },
   {
     img: 'sport_2',
-    title: '中班游戏玩法：看信号跳圈',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2246f11e-0c22-43d1-b994-070bc8ab71c1',
+    title: '中班游戏玩法：过小桥',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/bbd4f424-57aa-48f6-abea-c56e0e77d5c8',
   },
   {
     img: 'sport_3',
-    title: '大班活动案例：紧急灭火',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/7acb7345-a393-4ba3-b1c1-a49e49ce674b',
+    title: '大班自制玩教具：好饿的毛毛虫',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e8b05d0c-c887-44b0-93d6-d1c77ab60a52',
   },
   // 课程资源 - 学习板块 1/2/3
   {
     img: 'learn_1',
-    title: '小班健康：小手真干净',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a1900928-eb32-403d-abe5-57cc2e3efdd8',
+    title: '小班艺术：佩奇的花园',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9fe9edc1-2f73-4628-ad3a-670df3eb64b1',
   },
   {
     img: 'learn_2',
-    title: '中班健康：对对错错说说门',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/68eb5553-bb36-4ae2-83b1-d60a8c0c1304',
+    title: '中班音乐活动：春雨沙沙',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ecba823a-b347-4221-8eda-34ef49602c54',
   },
   {
     img: 'learn_3',
-    title: '大班音乐活动：过马路要看灯',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/6e1951ac-01eb-4b1d-8a4d-49d5428825b7',
+    title: '大班社会：春天的味道',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ffc86bd8-9035-4635-a913-90b6f5ef5dd9',
   },
   // 课程资源 - 游戏板块 1/2/3
   {
     img: 'game_1',
-    title: '小班游戏中的故事：娃娃生病了',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c707b486-a29d-4bfd-b7c7-642d54f57547',
+    title: '小班游戏中的故事：美丽的小花园',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/30097e84-e2b6-4015-aba3-610909be97f7',
   },
   {
     img: 'game_2',
-    title: '中班游戏中的故事：我是不小心的',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/8ac4da90-5a53-447d-9f8a-fb51fcd52009',
+    title: '中班游戏中的故事：花的海洋',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fee24a08-bee0-49cf-86b3-6165fb78266f',
   },
   {
     img: 'game_3',
-    title: '大班自制玩教具：拯救失火大楼',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e02887df-a827-4d06-9c82-fdf0d2ca0479',
+    title: '大班自制玩教具：有趣的竹子',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/90981aad-e417-4b99-bdb4-75e708c66547',
   },
   // 素材资源 1/2/3
   {
     img: 'material_1',
-    title: '“确保安全卫生第一”要注意哪些',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e5482e7d-1be6-4721-aec6-27c7a6eb6a0c',
+    title: '主题素材包：四季之四季特征（春）',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/08dfa288-8194-4bb8-93ad-5d236cb319a2',
   },
   {
     img: 'material_2',
-    title: '家庭感，所带来的安全感',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/dae170dc-5c7c-4cda-a5bb-bc2cf6c11218',
+    title: '主题素材包：植物的生长过程之发芽',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cf17a968-bdeb-490d-9774-b3edbbc7166d',
   },
   {
     img: 'material_3',
-    title: '主题素材包：中国美景之天山雪岭云杉林',
-    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/2a3852f3-dbae-483a-9834-4a8986b9a862',
+    title: '主题素材包：植物的种植方式',
+    href: 'https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/43d5cc40-19a8-415f-ae0a-a969b29b2abb',
   },
 ];
