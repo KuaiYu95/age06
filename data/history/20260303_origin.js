@@ -121,13 +121,13 @@ const data = [
   },
   {
     "img": "material_1",
-    "title": "在自然探索中认知世界 ",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fd66e90d-a6c3-412b-94a7-d39467082f06"
+    "title": "主题素材包：四季之四季特征（春）",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/08dfa288-8194-4bb8-93ad-5d236cb319a2"
   },
   {
     "img": "material_2",
-    "title": "活动室的墙",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e7eb0827-95b7-425f-8966-dea987c67ace"
+    "title": "主题素材包：中国美景之海南岛",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cbafc51d-9121-4c68-86c5-02012f85c2d5"
   },
   {
     "img": "material_3",
