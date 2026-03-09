@@ -7,7 +7,7 @@ const data = [
   {
     "img": "banner_2",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1217/09567/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2023/kct/25/index.html#/?setOfId=5013818"
   },
   {
     "img": "banner_3",
@@ -17,12 +17,12 @@ const data = [
   {
     "img": "banner_4",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0908/57441/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2024/kct/08/index.html#/?setOfId=5013818"
   },
   {
     "img": "banner_5",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1211/12887/index.html"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2023/kct/12/index.html#/?setOfId=5013818"
   },
   {
     "img": "banner_6",
@@ -60,6 +60,46 @@ const data = [
     "href": "https://mp.weixin.qq.com/s/d2QvQg0JX8-wojnt99CPFQ"
   },
   {
+    "img": "class_1",
+    "title": "中班沙水游戏：马上有宝挖沙挑战",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9d532a23-5fe9-4d71-9ccd-b01775277d84"
+  },
+  {
+    "img": "class_2",
+    "title": "大班健康活动：勇敢说不",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/c00a987d-70ca-4672-a88f-04490342b586"
+  },
+  {
+    "img": "class_3",
+    "title": "中班艺术：春如线",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f1af1162-4a6c-4fd3-8f61-16ba7e386a3d"
+  },
+  {
+    "img": "class_4",
+    "title": "小班综合活动：小熊画大树",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/cc6e759d-223c-4f2b-b65a-61252a83e0e2"
+  },
+  {
+    "img": "class_5",
+    "title": "中班民间游戏：马到成功蒙眼协作",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/bad71f42-8bfc-42b6-aa41-77823f76ae7f"
+  },
+  {
+    "img": "class_6",
+    "title": "大班活动：有用与无用——儿童哲学讨论活动",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/a9aa7704-d3ba-4781-a10c-19dd8a82376e"
+  },
+  {
+    "img": "class_7",
+    "title": "大班艺术活动：瑞马欢腾创意偶戏",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/e596578a-7f7a-4626-a200-c75237fd1d50"
+  },
+  {
+    "img": "class_8",
+    "title": "中班建构游戏：“泥巴乐园”诞生记",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/398ee0e5-50e8-4390-a132-e427a779ae50"
+  },
+  {
     "img": "side_material_1",
     "title": "室外种植园地",
     "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/986072ec-240f-40c2-bc94-3d0d2ecf257d"
@@ -71,18 +111,18 @@ const data = [
   },
   {
     "img": "side_material_3",
-    "title": "超市购物",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/205c648b-5a45-45fd-8653-4c503c2f649d"
+    "title": "真吃真喝 不止“过家家”",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1d2e9c0c-6bf3-4ad2-b60b-204b4be56a61"
   },
   {
     "img": "side_material_4",
-    "title": "红旗操",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1938021d-871b-4956-9536-e22b3eeebcae"
+    "title": "户外的“移动厕所”",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/79671260-a63d-449a-9a7e-894ccd228af7"
   },
   {
     "img": "side_material_5",
-    "title": "中班-医院",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9ce4959e-b39f-490f-9354-001c29ec1e31"
+    "title": "在自然探索中认知世界",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fd66e90d-a6c3-412b-94a7-d39467082f06"
   },
   {
     "img": "side_material_6",
@@ -91,8 +131,8 @@ const data = [
   },
   {
     "img": "side_material_7",
-    "title": "太阳和月亮-上课版压缩包",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ba051196-b00a-438e-9601-237fc3671537"
+    "title": "在社会情境中感知生活",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f0de2f97-a4de-452e-a049-ce40bd954cf1"
   },
   {
     "img": "side_material_8",
