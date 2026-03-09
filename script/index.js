@@ -26,6 +26,14 @@ function loadOldData(pathname) {
 const oldData = loadOldData('../data/origin.js');
 const newData = loadOldData('../data/new_data.js');
 
+// 将 title 转为与打包产物一致的格式：仅非 ASCII 用 \uXXXX，ASCII（如 "-"）保持原样
+function titleToUmiForm(str) {
+  return str.split('').map(char => {
+    const code = char.charCodeAt(0);
+    return code > 127 ? '\\u' + code.toString(16).padStart(4, '0') : char;
+  }).join('');
+}
+
 // 根据 newData 中的 img 从 oldData 筛选出旧数据
 function processDataReplacement() {
   console.log('\n2️⃣  开始查询替换数据...');
@@ -53,8 +61,8 @@ function processDataReplacement() {
     filters.forEach(it => {
       if (it.a.title) {
         replaceTitle.push({
-          a: it.a.title.split('').map(char => '\\u' + char.charCodeAt(0).toString(16).padStart(4, '0')).join(''),
-          b: it.b.title.split('').map(char => '\\u' + char.charCodeAt(0).toString(16).padStart(4, '0')).join('')
+          a: titleToUmiForm(it.a.title),
+          b: titleToUmiForm(it.b.title)
         })
       }
       if (it.a.href) {

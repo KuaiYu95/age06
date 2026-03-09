@@ -7,7 +7,7 @@ const data = [
   {
     "img": "banner_2",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2023/kct/25/index.html#/?setOfId=5013818"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1217/09567/index.html"
   },
   {
     "img": "banner_3",
@@ -17,12 +17,12 @@ const data = [
   {
     "img": "banner_4",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2024/kct/08/index.html#/?setOfId=5013818"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/0908/57441/index.html"
   },
   {
     "img": "banner_5",
     "title": "",
-    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2023/kct/12/index.html#/?setOfId=5013818"
+    "href": "https://age06.edu.sh.cn/age06web/home/06zhuanti/2025/1211/12887/index.html"
   },
   {
     "img": "banner_6",
@@ -71,18 +71,18 @@ const data = [
   },
   {
     "img": "side_material_3",
-    "title": "真吃真喝 不止“过家家”",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1d2e9c0c-6bf3-4ad2-b60b-204b4be56a61"
+    "title": "超市购物",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/205c648b-5a45-45fd-8653-4c503c2f649d"
   },
   {
     "img": "side_material_4",
-    "title": "户外的“移动厕所”",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/79671260-a63d-449a-9a7e-894ccd228af7"
+    "title": "红旗操",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/1938021d-871b-4956-9536-e22b3eeebcae"
   },
   {
     "img": "side_material_5",
-    "title": "在自然探索中认知世界",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/fd66e90d-a6c3-412b-94a7-d39467082f06"
+    "title": "中班-医院",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/9ce4959e-b39f-490f-9354-001c29ec1e31"
   },
   {
     "img": "side_material_6",
@@ -91,8 +91,8 @@ const data = [
   },
   {
     "img": "side_material_7",
-    "title": "在社会情境中感知生活",
-    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/f0de2f97-a4de-452e-a049-ce40bd954cf1"
+    "title": "太阳和月亮-上课版压缩包",
+    "href": "https://yyt.age06.edu.sh.cn/Age06.ImplementSupport/Resource/Detail/ba051196-b00a-438e-9601-237fc3671537"
   },
   {
     "img": "side_material_8",
